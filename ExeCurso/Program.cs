@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace ExeCurso
 {
@@ -6,7 +7,13 @@ namespace ExeCurso
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.Write("Entre o número da conta: "); 
+            int numero = int.Parse(Console.ReadLine());
+            Console.Write("Entre o titular da conta: ");
+            string titualr = Console.ReadLine();
+            Console.Write("Haverá depósito inicial (s/n)? ");
+            char resp = char.Parse(Console.ReadLine());
         }
     }
+}
 }
