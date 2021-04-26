@@ -27,6 +27,20 @@ namespace ExeCurso
             Console.WriteLine();
             Console.WriteLine("Dados da Conta: ");
             Console.WriteLine(conta);
+
+            Console.WriteLine();
+            Console.WriteLine("Entre um valor para depósito: ");
+            double quantia = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            conta.Deposito(quantia);
+            Console.WriteLine("Dados da conta atualizados: ");
+            Console.WriteLine(conta);
+
+            Console.WriteLine();
+            Console.WriteLine("Entre um valor para saque: ");
+            quantia = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            conta.Saque (quantia);
+            Console.WriteLine("Dados da conta atualizados: ");
+            Console.WriteLine(conta);
         }
     }
 }
