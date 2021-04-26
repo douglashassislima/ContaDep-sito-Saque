@@ -7,13 +7,27 @@ namespace ExeCurso
     {
         static void Main(string[] args)
         {
+            ContaBancaria conta; 
             Console.Write("Entre o número da conta: "); 
             int numero = int.Parse(Console.ReadLine());
             Console.Write("Entre o titular da conta: ");
-            string titualr = Console.ReadLine();
+            string titular = Console.ReadLine();
             Console.Write("Haverá depósito inicial (s/n)? ");
             char resp = char.Parse(Console.ReadLine());
+            if (resp == 's' || resp == 'S')
+            {
+                Console.WriteLine("Entre o valor de depósito Inicial: ");
+                double DepositoInicial = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+                conta = new ContaBancaria(numero, titular, DepositoInicial);
+            }
+            else
+            {
+                conta = new ContaBancaria(numero, titular);
+            }
+            Console.WriteLine();
+            Console.WriteLine("Dados da Conta: ");
+            Console.WriteLine(conta);
         }
     }
 }
-}
+

@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Globalization;
 using System.Text;
 
 namespace ExeCurso
@@ -19,6 +19,14 @@ namespace ExeCurso
         public ContaBancaria(int numero, string titular, double saldo) : this (numero, titular)
         {
             Saldo = saldo;
+        }
+        public void Deposito(double quantia)
+        {
+            Saldo += quantia;
+        }
+        public void Saque(double quantia)
+        {
+            Saldo -= quantia + 7.0;
         }
 
         public override string ToString()

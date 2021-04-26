@@ -1,0 +1,13 @@
+C:\Users\dougl\source\repos\ExeCurso\ExeCurso\obj\Debug\netcoreapp3.1\ExeCurso.csprojAssemblyReference.cache
+C:\Users\dougl\source\repos\ExeCurso\ExeCurso\obj\Debug\netcoreapp3.1\ExeCurso.AssemblyInfoInputs.cache
+C:\Users\dougl\source\repos\ExeCurso\ExeCurso\obj\Debug\netcoreapp3.1\ExeCurso.AssemblyInfo.cs
+C:\Users\dougl\source\repos\ExeCurso\ExeCurso\obj\Debug\netcoreapp3.1\ExeCurso.csproj.CoreCompileInputs.cache
+C:\Users\dougl\source\repos\ExeCurso\ExeCurso\bin\Debug\netcoreapp3.1\ExeCurso.exe
+C:\Users\dougl\source\repos\ExeCurso\ExeCurso\bin\Debug\netcoreapp3.1\ExeCurso.deps.json
+C:\Users\dougl\source\repos\ExeCurso\ExeCurso\bin\Debug\netcoreapp3.1\ExeCurso.runtimeconfig.json
+C:\Users\dougl\source\repos\ExeCurso\ExeCurso\bin\Debug\netcoreapp3.1\ExeCurso.runtimeconfig.dev.json
+C:\Users\dougl\source\repos\ExeCurso\ExeCurso\bin\Debug\netcoreapp3.1\ExeCurso.dll
+C:\Users\dougl\source\repos\ExeCurso\ExeCurso\bin\Debug\netcoreapp3.1\ExeCurso.pdb
+C:\Users\dougl\source\repos\ExeCurso\ExeCurso\obj\Debug\netcoreapp3.1\ExeCurso.dll
+C:\Users\dougl\source\repos\ExeCurso\ExeCurso\obj\Debug\netcoreapp3.1\ExeCurso.pdb
+C:\Users\dougl\source\repos\ExeCurso\ExeCurso\obj\Debug\netcoreapp3.1\ExeCurso.genruntimeconfig.cache
